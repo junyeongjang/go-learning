@@ -9,7 +9,7 @@
   - `conditionals.go`: `if`, `else`, `switch` 조건문
   - `loops.go`: `for` 반복문
 
-- **02-advanced**: Go의 고급 개념을 다룬 코드 (함수, 배열, 구조체, 인터페이스 등)
+- **02-advanced**: Go의 고급 개념을 다룬 코드 (고루틴, 포인터, 구조체, 인터페이스 등)
   - `pointers.go`: 포인터 사용
   - `goroutines.go`: 고루틴 실습
   - `structs.go`: 구조체 정의 및 사용
