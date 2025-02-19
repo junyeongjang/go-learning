@@ -1,18 +1,17 @@
 // variables.go
-package main
+package basics
 
 import "fmt"
 
-func main() {
-	// 명시적 타입 선언
+// 변수 선언 및 타입 추론
+func DeclareVariables() {
 	var a int = 10
 	var b float64 = 20.5
 	var c string = "Hello, Go!"
 
 	// 짧은 선언 방식
-	d := 42    // 자동으로 int 타입으로 추론
-	e := "Go!" // 자동으로 string 타입으로 추론
+	d := 42
+	e := "Go!"
 
-	// 출력
 	fmt.Println(a, b, c, d, e)
 }
