@@ -5,14 +5,13 @@
 ## 폴더 구조
 
 - **01-basics**: Go의 기본적인 개념을 다룬 코드 (변수, 조건문, 반복문 등)
-  - `hello.go`: "Hello, Go!" 프로그램
   - `variables.go`: 변수 선언 및 타입 추론
   - `conditionals.go`: `if`, `else`, `switch` 조건문
   - `loops.go`: `for` 반복문
 
 - **02-advanced**: Go의 고급 개념을 다룬 코드 (함수, 배열, 구조체, 인터페이스 등)
-  - `functions.go`: 함수 정의 및 호출
-  - `arrays.go`: 배열과 슬라이스 사용
+  - `pointers.go`: 포인터 사용
+  - `goroutines.go`: 고루틴 실습
   - `structs.go`: 구조체 정의 및 사용
   - `interfaces.go`: 인터페이스와 다형성
 
